@@ -117,15 +117,15 @@ const Contact: React.FC = () => {
               <ul className="space-y-3 text-sm text-gray-400">
                 <li className="flex items-center space-x-2">
                   <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
-                  <span>2x Cold Brew Coffee</span>
+                  <span>2x Coffee Kick</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
-                  <span>2x Choco Loco</span>
+                  <span>2x Chocolate Punch</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
-                  <span>2x Madagascar Vanilla</span>
+                  <span>2x Cinnamon Lift</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
@@ -238,11 +238,12 @@ const Contact: React.FC = () => {
                         style={{ color: formData.flavor ? 'inherit' : '#9ca3af' }}
                       >
                         <option value="" disabled>Select flavor to test</option>
-                        <option value="Belgian Chocolate">Belgian Chocolate</option>
-                        <option value="Cold Brew Coffee">Cold Brew Coffee</option>
-                        <option value="Madagascar Vanilla">Madagascar Vanilla</option>
+                        <option value="Belgian Chocolate">Chocolate Punch</option>
+                        <option value="Cold Brew Coffee">Coffee Kick</option>
+                        <option value="Madagascar Vanilla">Cinnamon Lift</option>
                         <option value="Surprise Me">Surprise Me</option>
                       </select>
+
                     </div>
 
                     <div>
